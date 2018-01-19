@@ -8,15 +8,12 @@ html {
   -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
+body {
+  height: 100%; }
+
 a {
   color: inherit;
   text-decoration: none; }
-
-img {
-  width: 100%;
-  height: auto;
-  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); }
 
 sup,
 sub {
@@ -24,7 +21,25 @@ sub {
   vertical-align: baseline; }
 
 h2 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: 'gagalin';
+  font-weight: 400;
+  font-size: 72px; }
+
+section {
+  min-height: 650px;
+  height: 100vh; }
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  min-height: 100%;
+  overflow: hidden; }
+
+.container {
+  max-width: 940px;
+  height: 100%;
+  margin: 0 auto; }
 
 .visually-hidden {
   position: absolute;

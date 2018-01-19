@@ -1,0 +1,108 @@
+@charset "UTF-8";
+.container--hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.hero {
+  background-color: #131a1d;
+  background: url("../img/bg_1_section.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header__img {
+  margin-top: 10px; }
+
+.header__list {
+  margin-left: auto;
+  padding: 15px; }
+
+.header__item {
+  display: inline;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 30px;
+  font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase; }
+  .header__item::before {
+    content: "•";
+    padding: 15px;
+    width: 5px;
+    height: 5px; }
+  .header__item .header__link:hover {
+    text-decoration: underline; }
+
+.header__btn {
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 30px;
+  font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #e45028;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  cursor: pointer; }
+  .header__btn:hover {
+    background-color: #c1401e; }
+
+.front {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.front--left {
+  padding: 10px;
+  margin-bottom: 70px; }
+
+.front--right {
+  padding-top: 55px; }
+
+.front__title {
+  color: #f9b43b;
+  line-height: 0; }
+
+.front__desc {
+  font-family: 'lifehack';
+  font-weight: 400;
+  font-size: 65px;
+  color: #FFFFFF;
+  letter-spacing: -2px; }
+
+.arrow {
+  margin-bottom: 40px; }

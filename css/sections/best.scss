@@ -1,0 +1,46 @@
+.container--best {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best {
+    background-color: #fef8f4;
+    background: url("../img/bg_best.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.best__title {
+    color: #2f3234;
+    font-size: 72px;
+}
+
+.features__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+}
+
+.features__item {
+    list-style: none;
+    text-align: center;
+}
+
+.features__name {
+    font-family: "lifehack", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #2f3234;
+}
+
+.features__desc {
+    font-family: "ubuntu", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #2f3234;
+}
