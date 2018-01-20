@@ -232,28 +232,44 @@ section {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -ms-flex-line-pack: justify;
   align-content: space-between;
   width: 100%; }
 
 .features__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   list-style: none;
-  text-align: center; }
+  text-align: center;
+  width: 300px;
+  margin-right: 20px; }
 
 .features__name {
+  display: block;
+  text-align: center;
+  line-height: 28px;
+  margin-bottom: 5px;
   font-family: "lifehack", Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 24px;
   color: #2f3234; }
 
 .features__desc {
+  text-align: center;
   font-family: "ubuntu", Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 14px;
-  color: #2f3234; }
+  color: #2f3234;
+  line-height: 24px; }
+
+.features__img {
+  min-width: 95px;
+  height: 95px; }
 
 .fixed-menu {
   position: fixed;
