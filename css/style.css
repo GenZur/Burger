@@ -294,9 +294,9 @@ section {
   .reviews__item:hover .reviews__box {
     visibility: visible;
     opacity: 1;
-    -webkit-transition: opacity 1s linear;
-    -o-transition: opacity 1s linear;
-    transition: opacity 1s linear; }
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s; }
 
 .reviews__img {
   height: 50vh;
@@ -318,9 +318,9 @@ section {
   padding: 50px 20px;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: visibility 0s 1s, opacity 1s linear;
-  -o-transition: visibility 0s 1s, opacity 1s linear;
-  transition: visibility 0s 1s, opacity 1s linear; }
+  -webkit-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s; }
 
 .reviews__title {
   font-family: "gagalin",Arial, Helvetica, sans-serif;
