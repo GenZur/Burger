@@ -303,7 +303,9 @@ section {
     transition: opacity 1s; }
 
 .reviews__img {
+  min-height: 325px;
   height: 50vh;
+  width: 100%;
   -webkit-transition-timing-function: ease-out;
   -o-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
