@@ -45,6 +45,9 @@
     .header__link:hover {
         text-decoration: underline;
     }
+    &:first-child::before {
+        display: none;
+    }
 }
 
 .header__btn {
@@ -96,4 +99,5 @@
 
 .arrow {
     margin-bottom: 40px;
+    cursor: pointer;
 }
