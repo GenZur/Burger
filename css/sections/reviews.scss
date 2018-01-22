@@ -12,6 +12,7 @@
 .reviews__item {
     position: relative;
     list-style: none;
+    height: 50vh;
     min-height: 325px;
     width: 25%;
     overflow: hidden;
@@ -28,7 +29,7 @@
 
 .reviews__img {
     height: 50vh;
-    width: 100%;
+    // width: 100%;
     transition-timing-function: ease-out;
     transition: 1s;
 }

@@ -287,6 +287,7 @@ section {
 .reviews__item {
   position: relative;
   list-style: none;
+  height: 50vh;
   min-height: 325px;
   width: 25%;
   overflow: hidden; }
@@ -303,7 +304,6 @@ section {
 
 .reviews__img {
   height: 50vh;
-  width: 100%;
   -webkit-transition-timing-function: ease-out;
   -o-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
