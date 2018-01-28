@@ -33,6 +33,9 @@ section {
   min-height: 650px;
   height: 100vh; }
 
+ul {
+  list-style: none; }
+
 .wrapper {
   width: 100%;
   position: relative;
@@ -366,6 +369,109 @@ section {
   cursor: pointer; }
   .reviews__btn:hover {
     background-color: #1f2122; }
+
+.team {
+  background-color: #fef8f4;
+  background: url("../img/team_bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative; }
+
+.team__box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2f3234;
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 49%;
+  padding-left: 90px; }
+
+.team__content {
+  margin-top: 100px;
+  width: 80%; }
+
+.team__title {
+  color: #f9b43b;
+  margin-bottom: 50px; }
+
+.acco__item {
+  margin-bottom: 35px; }
+
+.acco__name {
+  font-family: 'gagalin', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 28.13px;
+  cursor: pointer; }
+  .acco__name::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-top-color: #f9b43b;
+    border-bottom: none;
+    margin-right: 10px;
+    display: inline-block;
+    padding-bottom: 2px; }
+  .acco__name--active {
+    color: #f9b43b; }
+    .acco__name--active::before {
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+
+.acco__desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 10px;
+  height: 0;
+  overflow: hidden; }
+  .acco__desc--active {
+    height: 100%;
+    overflow: auto; }
+
+.acco__photo {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px; }
+
+.acco__img {
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.acco__info {
+  padding-top: 12px;
+  max-width: 235px; }
+
+.acco__occupation {
+  font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 15px; }
+
+.acco__text {
+  font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF; }
 
 .fixed-menu {
   position: fixed;
