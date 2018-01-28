@@ -275,6 +275,13 @@ ul {
   line-height: 24px;
   margin-top: 10px; }
 
+.slider {
+  background-color: #f9b43b;
+  background: url("../img/slider_bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative; }
+
 .reviews {
   background-color: #505050;
   background-size: cover; }
@@ -472,6 +479,27 @@ ul {
   font-size: 14px;
   line-height: 24px;
   color: #FFFFFF; }
+
+.menu {
+  background-color: #fef8f4;
+  background: url("../img/menu_bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative; }
+
+.form {
+  background-color: #252525;
+  background: url("../img/form_bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative; }
+
+.map {
+  background-color: #aacbd9;
+  background: url("../img/map_bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative; }
 
 .fixed-menu {
   position: fixed;

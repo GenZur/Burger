@@ -1,0 +1,6 @@
+.map {
+  background-color: #aacbd9;
+  background: url("../img/map_bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative; }
