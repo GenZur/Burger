@@ -5,3 +5,82 @@
     background-position: top center;
     position: relative;
 }
+
+.menu__title {
+    color: #FFFFFF;
+    top: 10%;
+    left: 10%;
+    position: absolute;
+}
+
+.menu__list {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.menu__item {
+    float: left;
+    height: 100%;
+}
+
+.menu__trigger {
+    display: block;
+    height: 100%;
+    width: 80px;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    position: relative;
+    &--meat {
+        background-image: url('../img/menu_meat.jpg');
+    }
+    &--vegan {
+        background-image: url('../img/menu_vegan.jpg');
+    }
+    &--diet {
+        background-image: url('../img/menu_diet.jpg');
+    }
+}
+
+.menu__trigger-text {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'gagalin';
+    font-weight: 400;
+    transform: rotate(-90deg);
+    text-align: center;
+    white-space: nowrap;
+    width: 650px;
+    height: 80px;
+    position: absolute;
+    left: -275px;
+    margin-top: -40px;
+    display: flex;
+    bottom: 40%;
+}
+
+.menu__content {
+    height: 100%;
+    float: left;
+    background: rgba(47, 50, 52, 0.93);
+    overflow: hidden;
+    width: 550px;
+}
+
+.menu__text {
+    font-family: 'ubuntu';
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    padding: 60px 30px;
+    width: 550px;
+    line-height: 1.8;
+}
+
+.menu__content {
+    display: none;
+}
