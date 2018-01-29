@@ -1,7 +1,74 @@
 .map {
     background-color: #aacbd9;
+}
+
+.map__google {
+    position: relative;
+    overflow: hidden;
+    height: calc(100% - 60px);
     background: url("../img/map_bg.jpg") no-repeat;
     background-size: cover;
     background-position: top center;
-    position: relative;
+}
+.footer {
+    background: url('../img/footer.jpg') no-repeat;
+    background-position:  center center;
+    background-size: cover;
+    height: 60px;
+    min-width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__left {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.footer__address {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.footer__phone {
+    font-size: 14px;
+    color: #e45028;
+    font-weight: 700;
+    margin-top: 5px;
+    &::before {
+        content: "";
+        display: inline-block;
+        background: url("../img/icons/phone.svg") no-repeat;
+        width: 12px;
+        height: 12px;
+        float: left;
+        margin: 2px 6px 0 0;
+    }
+}
+
+.footer__right {
+    text-align: right;
+    width: 50%;
+    margin-top: 20px;
+    float: right;
+}
+
+.socials__item {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.socials__text {
+    display: none;
+}
+
+.socials__img {
+    width: 22px;
+    height: 22px;
+    opacity: 0.3;
+    transition: 0.5s;
+    &:hover {
+        opacity: 1;
+    }
 }
