@@ -83,7 +83,7 @@
         <section class="slider">
             <div class="container slider__container">
                 <div class="slider__wrapper">
-                    <ul class="slider__list">
+                    <ul class="slider__list" id="items">
                         <li class="slider__item">
                             <div class="slider__content">
                                 <div class="slider__content-left slider__content-left--beef">
@@ -162,8 +162,8 @@
                         </li>
                         <li class="slider__item">
                             <div class="slider__content">
-                                <div class="slider__content-left slider__content-left--beef">
-                                    <img src="img/burger__beef.png" alt="Dark beef burger" class="slider__img slider__img--beef">
+                                <div class="slider__content-left slider__content-left--shrimp">
+                                    <img src="img/shrimp.png" alt="Dark beef burger" class="slider__img slider__img--shrimp">
                                     <div class="ingredients">
                                         <img src="img/icons/burger.svg" alt="состав бургера" class="ingredients__img">
                                         <span class="ingredients__title">Состав</span>
@@ -238,8 +238,8 @@
                         </li>
                         <li class="slider__item">
                             <div class="slider__content">
-                                <div class="slider__content-left slider__content-left--beef">
-                                    <img src="img/burger__beef.png" alt="Dark beef burger" class="slider__img slider__img--beef">
+                                <div class="slider__content-left slider__content-left--bacon">
+                                    <img src="img/bacon.png" alt="Dark beef burger" class="slider__img slider__img--bacon">
                                     <div class="ingredients">
                                         <img src="img/icons/burger.svg" alt="состав бургера" class="ingredients__img">
                                         <span class="ingredients__title">Состав</span>
@@ -314,16 +314,12 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="slider__controls">
-                <a href="" class="slider__btn slider__btn--prev">
+                <div class="slider__btn slider__btn--prev" id="prev">
                     <img src="img/icons/arrow-scroll.svg" alt="Стрелка влево">
-                </a>
-            </div>
-            <div class="arrows next">
-                <a href="" class="slider__btn slider__btn--next">
+                </div>
+                <div class="slider__btn slider__btn--next" id="next">
                     <img src="img/icons/arrow-scroll.svg" alt="Стрелка вправо">
-                </a>
+                </div>
             </div>
         </section>
         <section class="team">

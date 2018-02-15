@@ -18,7 +18,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b43b', end
 
 .slider__wrapper {
     position: relative;
-    width: 950px;
+    max-width: 960px;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -31,8 +32,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b43b', end
 .slider__list {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    will-change: right;
+    transition: right 0.3s;
+    position: relative;
 }
 
 .slider__content {
@@ -109,6 +112,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b43b', end
 .slider__img {
     padding-top: 70px;
     padding-bottom: 60px;
+    max-width: 425px;
 }
 
 .order__btn {
@@ -172,13 +176,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b43b', end
     right: -45px;
 }
 
+.slider__btn--prev {
+    transform: rotate(90deg);
+    left: -45px;
+}
+
 .slider__btn--next,
 .slider__btn--prev {
     position: absolute;
     top: 50%;
-
-}
-
-.slider__controls {
-    
 }
