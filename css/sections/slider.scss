@@ -43,7 +43,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b43b', end
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 950px;
+    width: 960px;
+}
+
+.slider__content-right {
+    margin-left: 20px;
 }
 
 .content-right__title {
@@ -86,7 +90,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b43b', end
     border-radius: 5px;
     text-align: center;
     top: 0;
-    left: 0;
     position: absolute;
     cursor: pointer;
     transition: 0.3s;
@@ -122,11 +125,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b43b', end
 .calories {
     position: absolute;
     bottom: 0;
-    left: 0;
     display: flex;
     flex-direction: column;
     text-align: center;
-    opacity: .2;
+    opacity: .5;
 }
 
 .calories__title {

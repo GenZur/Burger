@@ -347,7 +347,10 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 950px; }
+  width: 960px; }
+
+.slider__content-right {
+  margin-left: 20px; }
 
 .content-right__title {
   color: #FFFFFF;
@@ -388,7 +391,6 @@ ul {
   border-radius: 5px;
   text-align: center;
   top: 0;
-  left: 0;
   position: absolute;
   cursor: pointer;
   -webkit-transition: 0.3s;
@@ -419,7 +421,6 @@ ul {
 .calories {
   position: absolute;
   bottom: 0;
-  left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,7 +429,7 @@ ul {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  opacity: .2; }
+  opacity: .5; }
 
 .calories__title {
   font-size: 14px;
@@ -482,7 +483,8 @@ ul {
 .slider__btn--next,
 .slider__btn--prev {
   position: absolute;
-  top: 50%; }
+  top: 50%;
+  cursor: pointer; }
 
 .reviews {
   background-color: #505050;
